@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="512.0" prefWidth="288.0" stylesheets="@../Static/darktheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PhonesController">
+   <children>
+      <SplitPane dividerPositions="0.9392156862745098" layoutX="57.0" layoutY="84.0" orientation="VERTICAL" prefHeight="512.0" prefWidth="288.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+            <ListView fx:id="PhoneList" onMouseClicked="#handleDoubleClick" prefHeight="405.0" prefWidth="286.0" styleClass="background" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="background">
+               <children>
+                  <Button layoutX="83.0" layoutY="1.0" mnemonicParsing="false" onAction="#handleAddButton" text="Добавить" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
