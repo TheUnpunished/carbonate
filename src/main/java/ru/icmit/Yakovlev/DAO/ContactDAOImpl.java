@@ -1,7 +1,8 @@
-package DAO;
+package ru.icmit.Yakovlev.DAO;
 
-import Model.Contact;
-import Util.DbWork;
+import ru.icmit.Yakovlev.Model.Contact;
+import ru.icmit.Yakovlev.Util.DbWork;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;

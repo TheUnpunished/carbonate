@@ -1,4 +1,4 @@
-package DAO;
+package ru.icmit.Yakovlev.DAO;
 import java.util.List;
 import java.util.Optional;
 

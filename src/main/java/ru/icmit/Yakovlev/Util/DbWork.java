@@ -1,4 +1,4 @@
-package Util;
+package ru.icmit.Yakovlev.Util;
 
 import java.io.IOException;
 import java.sql.*;

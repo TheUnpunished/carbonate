@@ -1,4 +1,4 @@
-package Model;
+package ru.icmit.Yakovlev.Model;
 
 import lombok.Data;
 

@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="512.0" prefWidth="288.0" stylesheets="@../Static/darktheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PhonesController">
+<AnchorPane prefHeight="512.0" prefWidth="288.0" stylesheets="@../Static/darktheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.icmit.Yakovlev.Controller.PhonesController">
    <children>
       <SplitPane dividerPositions="0.9392156862745098" layoutX="57.0" layoutY="84.0" orientation="VERTICAL" prefHeight="512.0" prefWidth="288.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>

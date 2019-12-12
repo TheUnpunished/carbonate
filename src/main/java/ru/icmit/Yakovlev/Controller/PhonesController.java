@@ -1,4 +1,4 @@
-package Controller;
+package ru.icmit.Yakovlev.Controller;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -12,10 +12,10 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import DAO.PhoneDAO;
-import DAO.PhoneDAOImpl;
-import Model.Phone;
-import Util.DbWork;
+import ru.icmit.Yakovlev.DAO.PhoneDAO;
+import ru.icmit.Yakovlev.DAO.PhoneDAOImpl;
+import ru.icmit.Yakovlev.Model.Phone;
+import ru.icmit.Yakovlev.Util.DbWork;
 
 import java.io.IOException;
 import java.net.URL;

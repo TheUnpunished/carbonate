@@ -1,9 +1,5 @@
-package Controller;
+package ru.icmit.Yakovlev.Controller;
 
-import DAO.PhoneTypeDAO;
-import DAO.PhoneTypeDAOImpl;
-import Model.PhoneType;
-import Util.DbWork;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -11,6 +7,10 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import ru.icmit.Yakovlev.DAO.PhoneTypeDAO;
+import ru.icmit.Yakovlev.DAO.PhoneTypeDAOImpl;
+import ru.icmit.Yakovlev.Model.PhoneType;
+import ru.icmit.Yakovlev.Util.DbWork;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ import java.util.ResourceBundle;
 public class AddCodeController implements Initializable {
 
     private Stage dialogStage;
-    private DbWork dbWork=DbWork.getInstance();
+    private DbWork dbWork= DbWork.getInstance();
     private final ObservableList<String> typeBoxList = FXCollections.observableArrayList();
 
 

@@ -1,4 +1,4 @@
-package Util;
+package ru.icmit.Yakovlev.Util;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

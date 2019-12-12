@@ -1,6 +1,6 @@
-package DAO;
+package ru.icmit.Yakovlev.DAO;
 
-import Model.PhoneType;
+import ru.icmit.Yakovlev.Model.PhoneType;
 
 import java.util.List;
 import java.util.Optional;
